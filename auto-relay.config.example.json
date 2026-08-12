@@ -1,0 +1,36 @@
+{
+    "qq": {
+        "enabled": false,
+        "onebotHttp": "http://127.0.0.1:6098",
+        "onebotWs": "ws://127.0.0.1:6098",
+        "token": "",
+        "selfId": 0,
+        "replyPrivate": true,
+        "replyGroups": true,
+        "groupMode": "all",
+        "groupWhitelist": [],
+        "privateBlacklist": [],
+        "groupBlacklist": [],
+        "maxRepliesPerSessionPerMin": 3,
+        "groupMaxRepliesPerSessionPerMin": 2,
+        "historyLimit": 24,
+        "replyDelaySec": [6, 18],
+        "privateReplyDelaySec": [4, 12],
+        "groupReplyDelaySec": [12, 35],
+        "lineIntervalSec": [2, 6],
+        "maxLinesPerReply": 6,
+        "privateReplyProbability": 1,
+        "groupReplyProbability": 0.45,
+        "quietHours": ["23:30-08:00"],
+        "privateKeywords": [],
+        "groupKeywords": []
+    },
+    "llm": {
+        "baseUrl": "http://127.0.0.1:8899/v1",
+        "model": "deepseek-v4-flash",
+        "temperature": 0.75,
+        "maxTokens": 400,
+        "timeoutSec": 90
+    },
+    "personaPath": "persona.txt"
+}
